@@ -5,7 +5,7 @@ import SectionTitle from '../ui/SectionTitle';
 export default function Wishes() {
     return (
         <PageSection background="bg-cream">
-            <div className="mb-36 mx-auto max-w-3xl text-center">
+            <div className="mb-[500px] mx-auto max-w-3xl text-center">
 
                 <FadeIn>
                     <SectionTitle>Пожелания гостям</SectionTitle>
