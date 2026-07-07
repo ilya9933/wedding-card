@@ -119,22 +119,46 @@ export default function RSVPForm() {
                 />
             )}
 
-            <button
-                onClick={handleSubmit}
-                className="
-          mt-10
-          w-full
-          rounded-full
-          bg-rose
-          py-4
-          text-white
-          transition
-          hover:opacity-90
-        "
-            >
-                Отправить
-            </button>
+            <div className='flex flex-col items-center'>
 
+                <button
+                    onClick={handleSubmit}
+                    className="
+                      mt-10
+                      w-full
+                      rounded-full
+                      bg-rose
+                      py-4
+                      text-white
+                      transition
+                      hover:opacity-90
+                    "
+                >
+                    Отправить в Telegram
+                </button>
+
+                <p className="text-center mt-8 mb-4 text-muted">
+                    или
+                </p>
+
+                <a
+                    href="https://vk.com/id439353531"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                            rounded-full
+                            bg-rose
+                            px-8
+                            py-3
+                            text-white
+                            transition
+                            hover:scale-105
+                        "
+                >
+                    Написать Алине в VK
+                </a>
+            </div>
         </div>
+
     );
 }

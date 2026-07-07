@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const BOT_TOKEN = 'ТВОЙ_ТОКЕН';
-const CHAT_ID = 'ТВОЙ_CHAT_ID';
+const BOT_TOKEN = '8476706464:AAGpyoBF4vFqfstwnf8CHDLjuIECStIB9cE';
+const CHAT_ID = '330137645';
 
 export interface RSVPData {
     name: string;
