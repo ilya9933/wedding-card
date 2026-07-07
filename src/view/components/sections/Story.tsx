@@ -28,7 +28,7 @@ const images = [
 export default function Story() {
     return (
         <PageSection background="bg-ivory">
-            <div className="mb-[500px] mx-auto max-w-6xl">
+            <div className="mb-[400px] mx-auto max-w-6xl">
 
                 <div className="mb-16 text-center">
                     <SectionTitle>Наша история</SectionTitle>
