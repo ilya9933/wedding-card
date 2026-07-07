@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function HeroContent() {
     return (
         <div className="relative z-10 flex h-full items-end justify-center px-6 text-center">
-            <div className="mb-32">
+            <div className="mb-28">
 
                 {/* Илья */}
                 <motion.h1
