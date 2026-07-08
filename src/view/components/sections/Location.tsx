@@ -15,7 +15,7 @@ export default function Location() {
                 {/* адрес */}
                 <FadeIn delay={0.3}>
                     <p className="mt-6 text-lg text-muted max-w-2xl mx-auto leading-relaxed">
-                        Загородный котедж "Lucky House" <br />
+                        Загородный коттедж "Lucky House" <br />
                         Ростовская область <br />
                         с. Лакедемоновка, ул. Заречная 62
                     </p>
